@@ -1,4 +1,9 @@
 <?php include("header.php") ?> 
+<?php if(!isset($_SESSION['id'])){
+    header("location:index.php");
+    include("footer.php");
+}
+?>
 <section class = 'centrer'>
 
     <section class = 'aligne_rappel'>
