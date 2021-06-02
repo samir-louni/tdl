@@ -14,9 +14,7 @@
         </div>
         <div class = 'rappels_fini'>
             <h2 class = 'titre_rappel'> RAPPELS EFFECTUE </h2>
-            <ul class = 'liste_fini' id = 'reponse5'>
-
-               
+            <ul class = 'liste_fini' id = 'reponse5'>         
             </ul>
         </div>
     </section>
@@ -26,7 +24,6 @@
                 <label class = 'label_add' for ='ajouter'>Ajouter un rappel :</label><br>
                 <input  id="rappelJS" class = 'input_add' type = 'text' name ='ajouter'>
                 <input id="dateJS" type="date" class = 'input_add_2'>
-            
         </div>
     </section>
     <section class = 'caseerreur2' id = 'reponse3'>
@@ -38,8 +35,6 @@
 </section>
 
  <script src = 'tdlscript.js'>
-
-
 </script>
 
 <?php include ("footer2.php") ?> 
