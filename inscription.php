@@ -43,8 +43,7 @@ if(isset($_POST['rap']))
     $user->ajouter_rappel($rappel, $date);
     //$user->afficher_rappel();
 }
-
-// Affiher les rappels 
+ 
 if(isset($_GET['show'])){
    echo $user->afficher_rappel();
 }
